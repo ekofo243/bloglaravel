@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('titre');
             $table->string('sous_titre');
-            $table->string('contenu');
+            $table->text('contenu');
             $table->foreignId('categorie_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->string('slug');
