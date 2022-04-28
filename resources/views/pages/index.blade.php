@@ -29,10 +29,6 @@
           </div>
         </div>
       </div>
-
-      <footer class="pt-3 mt-4 text-muted border-top">
-        &copy; All right reserved 2022
-      </footer>
     </div>
   </main>
 @endsection
