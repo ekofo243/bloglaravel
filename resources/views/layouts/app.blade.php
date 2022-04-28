@@ -12,11 +12,11 @@
      crossorigin="anonymous">
 
     <title>@yield('title')</title>  <!--vu que ce titre sort du haut de la page, on veut à ce que les pages hérite de cette logique, raison pour laquelle on les associe à chaque page-->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/b') }}">
   </head>
   <body>
 
-    @include('components.navbar')
+    @include('components.navbar') 
 
     @yield('contenu')
 
