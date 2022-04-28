@@ -146,7 +146,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading"></span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <p class="lead">J'ai toujour choisi une personne fainéante pour effectuer un travail difficile. Car je sais qu'elle trouvera  un moyen facile de le faire... <br> <br> Bill Gates***</p>
       </div>
       <div class="col-md-5 order-md-1">
         <img src="" alt="">
