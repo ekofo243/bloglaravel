@@ -9,6 +9,10 @@ body {
     justify-content: space-between;
 }
 
-.card {
-    position: relative;
+.container {
+    padding: 20px;
+}
+
+h1 {
+    padding: 10px;
 }
