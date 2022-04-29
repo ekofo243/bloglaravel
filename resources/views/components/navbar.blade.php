@@ -1,24 +1,60 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Accueil</a>  <!--Le lien vers la page index-->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a> <!--Le lien vers la page contact-->
-          </li>
+<header>
+      <style>
+          *{
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+              
+           }
 
+            li, a, button{
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 16px;
+              color: burlywood;
+              text-decoration: none;
+           }
 
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+
+           .nav__links{
+               list-style: none;
+            }
+
+            .nav__links li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+        
+            .nav__links li a{
+                transition: all 0.3s ease 0s;
+            }
+
+            .nav__links li a:hover{
+                color: #0088a9;
+            }
+
+            button{
+                padding: 9px 25px;
+                background-color: rgba(0,136,169,1);
+                border: none;
+                border-radius: 50px;
+                cursor:pointer;
+                transition: all 0.3s ease 0s;
+            }
+        
+      </style>
+      <img src="" alt="">
+      <nav>
+          <ul class="nav__links">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/contact">Contact</a></li>
+          </ul>
+      </nav>
+      <a href="#"><button>Contacter</button></a>
+  </header>

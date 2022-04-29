@@ -1,7 +1,14 @@
 body {
-    background-color: blueviolet;
+    margin: auto;
+    padding: auto;
 }
 
 .card {
-    color: red
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
 }
