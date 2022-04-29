@@ -1,1 +1,1 @@
-<p>Footer</p>
+<p>Je suis le Footer</p>
